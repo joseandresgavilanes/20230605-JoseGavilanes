@@ -1,0 +1,4 @@
+Ejemplos de software:
+- Sistema operativo Windows
+- Suite de productividad Microsoft Office
+- Navegador web Google Chrome

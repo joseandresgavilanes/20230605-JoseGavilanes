@@ -1,0 +1,30 @@
+mkdir 20230605-JoseGavilanes
+cd 20230605-JoseGavilanes
+git init
+touch comandos.txt
+touch main.js
+touch index.html
+git add .
+git commit -m "01 de Jose Gavilanes"
+git branch -M main
+git remote add origin https://github.com/joseandresgavilanes/20230605-JoseGavilanes
+git push -u origin main
+git checkout -b feature
+mkdir Hardware Software SeguridadInformatica
+touch Hardware/resumen.txt
+touch Software/resumen.txt
+touch SeguridadInformatica/resumen.txt
+git add .
+git commit -m "02 de Jose Gavilanes"
+git push --set-upstream origin feature
+git checkout main
+mv main.js resumenHardware.txt
+mv index.html resumenSoftware.txt
+echo "Ejemplos de software:" > resumenSoftware.txt
+echo "- Sistema operativo Windows" >> resumenSoftware.txt
+echo "- Suite de productividad Microsoft Office" >> resumenSoftware.txt
+echo "- Navegador web Google Chrome" >> resumenSoftware.txt
+echo "Memorias principales de la computadora:" > resumenHardware.txt
+echo "- RAM (Random Access Memory)" >> resumenHardware.txt
+echo "- ROM (Read-Only Memory)" >> resumenHardware.txt
+echo "- Cache" >> resumenHardware.txt
